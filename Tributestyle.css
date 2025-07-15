@@ -1,0 +1,21 @@
+#main {
+  text-align: center;
+  font-family: 'Cinzel', sans-serif;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption {
+  text-align: center;
+  font-family: 'Cinzel',     sans-serif;
+
+}
+#tribute-info, figcaption, h1, h4 {
+   text-align: center;
+  font-family: 'Cinzel',       sans-serif; 
+  font-weight: 1000;
+
+}
