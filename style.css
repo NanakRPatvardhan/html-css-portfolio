@@ -113,7 +113,8 @@
     font-size: 5.625rem;
     color: black;
     text-align: center;
-    font-family: "Sacramento", cursive;
+    font-family: 'Sacramento', 'Segoe Script', cursive;
+
     
 }
 .projects {
@@ -130,14 +131,16 @@
     font-size: 2.5rem;
     color: black;
     text-align: center;
-    font-family: "Sacramento", cursive;
+    font-family: 'Sacramento', 'Segoe Script', cursive;
+
     margin-bottom: 20px;
 }
 .about-text {
     font-size: 1.5rem;
     color: black;
     text-align: center;
-    font-family: "Sacramento", cursive;
+    font-family: 'Sacramento', 'Segoe Script', cursive;
+
     margin-top: 20px;
   
 }
@@ -145,7 +148,8 @@
   font-size: 1.5rem;
     color: black;
     text-align: center;
-    font-family: "Sacramento", cursive;
+    font-family: 'Sacramento', 'Segoe Script', cursive;
+
     margin-top: 20px; 
 
   }
