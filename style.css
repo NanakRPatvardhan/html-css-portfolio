@@ -113,7 +113,8 @@
     font-size: 5.625rem;
     color: black;
     text-align: center;
-    font-family: 'Sacramento', cursive;
+   font-family: 'Space Grotesk', sans-serif;
+
 
     
 }
@@ -131,7 +132,8 @@
     font-size: 2.5rem;
     color: black;
     text-align: center;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Space Grotesk', sans-serif;
+
 
     margin-bottom: 20px;
 }
@@ -139,7 +141,8 @@
     font-size: 1.5rem;
     color: black;
     text-align: center;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Space Grotesk', sans-serif;
+
 
     margin-top: 20px;
   
@@ -148,7 +151,7 @@
   font-size: 1.5rem;
     color: black;
     text-align: center;
-    font-family: 'Sacramento', cursive;
+   font-family: 'Space Grotesk', sans-serif;
 
     margin-top: 20px; 
 
@@ -164,4 +167,40 @@
     height: 50px;
     width: 250px;
   }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  z-index: 1000;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 60px;
+  height: auto;
+  margin-right: auto;
+}
+main {
+  margin-top: 80px;
+}
+@media (max-width: 576px) {
+  .logo {
+    max-width: 40px;
+  }
+}
+@media (max-width: 576px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+
+
+
     
